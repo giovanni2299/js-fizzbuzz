@@ -9,6 +9,12 @@ body{
     font-size: 70px;
 }
 
+.title:hover{
+    color: #FFCF4E;
+    transition: 300ms;
+
+}
+
 .content{
     width: 900px;
     margin: 0 auto;
