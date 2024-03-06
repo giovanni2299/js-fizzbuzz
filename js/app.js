@@ -7,22 +7,37 @@
         let num = i + 1;
         //stampo il risultato del mio ciclo
 
-        console.log(num)
+        // console.log(num)
 
         //SE stampi i multipli di 3 stamperai "fizz" al posto del numero
             //come faiccio a sapere se un numero e divisibile per 3?
         let numDivisoTre = num % 3;
-        if(numDivisoTre === 0){
-            console.log('Fizz')
-        }
 
+        //SE stampi i multipli di 5 stamperai "buzz" al posto del numero 
+            //come faiccio a sapere se un numero e divisibile per 5?
+        let numDivisoreCinque = num % 5;
+
+
+        if(numDivisoTre != 0){
+            console.log(num)
+        }else if(numDivisoTre === 0){
+            console.log('fizz')
+
+        } //else(numDivisoreCinque != 0){
+        //     console.log('fizz')
+        // }
+
+
+        // if(numDivisoreCinque != 0){
+        //     console.log(num)
+        // } else(numDivisoreCinque === 0){
+        //     console.log('buzz')
+        // }
     }
 
         //nomino una variabile e uso l' operatore modulo 
         //stampo il valore della variabile 
 
-    //SE stampi i multipli di 5 stamperai "buzz" al posto del numero 
-        //come faiccio a sapere se un numero e divisibile per 5?
         //nomino una variabile e uso l' operatore modulo 
         //stampo il valore della variabile 
 
