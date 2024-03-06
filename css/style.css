@@ -2,6 +2,10 @@ body{
     background-color:#003C4E;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
 
 .title{
     color: white;
@@ -10,7 +14,8 @@ body{
 }
 
 .title:hover{
-    color: #FFCF4E;
+    background-color: #FFCF4E;
+    color: black;
     transition: 300ms;
 
 }
