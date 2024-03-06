@@ -28,6 +28,11 @@ body{
     border: 1px solid black;
 }
 
+.square:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: 300ms;
+}
+
 .num_squere{
     background-color: #008CB6;
     color: black
@@ -47,3 +52,4 @@ body{
     background-color: #FFCF4E;
     color:black;
 }
+
