@@ -5,7 +5,7 @@ const mainElement = document.querySelector('.content')
 
 //scrivi un programma che stampi in console i numeri da 1 a 100
 //creo un ciclo for per creare i miei numeri da 1 a 100
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 105; i++) {
     //creo una variabile per visualizzare i numeri da 1 a 100 e non da 0 a 99
     let num = i + 1;
     //stampo il risultato del mio ciclo
