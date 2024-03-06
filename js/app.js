@@ -26,21 +26,21 @@ for (let i = 0; i < 100; i++) {
     if(numDivisoTre === 0 && numDivisoreCinque === 0) { // SE è multiplo di 3 e di 5
         //Stampo "fizzbuzz"
         console.log('fizzbuzz');
-        mainElement.innerHTML += `<div class="square">${'fizzbuzz'}</div>`
+        mainElement.innerHTML += `<div class="square fizzbuzz">${'fizzbuzz'}</div>`
 
     }else if (numDivisoTre === 0) { // SE il numero è multiplo di 3
         // Stampo Fizz
         console.log('fizz');
-        mainElement.innerHTML += `<div class="square">${'fizz'}</div>`
+        mainElement.innerHTML += `<div class="square fizz">${'fizz'}</div>`
 
     } else if(numDivisoreCinque === 0) { //ALTRIMENTI SE multiplo di 5
         //Stampo buzz
         console.log('buzz');
-        mainElement.innerHTML += `<div class="square">${'buzz'}</div>`
+        mainElement.innerHTML += `<div class="square buzz">${'buzz'}</div>`
 
     } else{
         console.log(num);
-        mainElement.innerHTML += `<div class="square">${num}</div>`
+        mainElement.innerHTML += `<div class="square num_squere">${num}</div>`
     }
     
 }
