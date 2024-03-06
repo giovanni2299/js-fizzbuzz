@@ -1,10 +1,12 @@
 body{
     background-color:#003C4E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .title{
     color: white;
     text-align: center;
+    font-size: 70px;
 }
 
 .content{
