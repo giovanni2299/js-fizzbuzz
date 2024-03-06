@@ -1,0 +1,15 @@
+.content{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.main_page{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 10px;
+}
+
+.square{
+    aspect-ratio: 1;
+    border: 1px solid black;
+}

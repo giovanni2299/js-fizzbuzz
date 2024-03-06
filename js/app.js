@@ -1,5 +1,7 @@
 // console.log('ciao mamma')
 
+const mainElement = document.querySelector('.content')
+
 //scrivi un programma che stampi in console i numeri da 1 a 100
 //creo un ciclo for per creare i miei numeri da 1 a 100
 for (let i = 0; i < 100; i++) {
@@ -8,6 +10,8 @@ for (let i = 0; i < 100; i++) {
     //stampo il risultato del mio ciclo
 
     // console.log(num)
+
+    
 
     //SE stampi i multipli di 3 stamperai "fizz" al posto del numero
     //come faiccio a sapere se un numero e divisibile per 3?
@@ -22,17 +26,21 @@ for (let i = 0; i < 100; i++) {
     if(numDivisoTre === 0 && numDivisoreCinque === 0) { // SE è multiplo di 3 e di 5
         //Stampo "fizzbuzz"
         console.log('fizzbuzz');
+        mainElement.innerHTML += `<div class="square">${'fizzbuzz'}</div>`
 
     }else if (numDivisoTre === 0) { // SE il numero è multiplo di 3
         // Stampo Fizz
         console.log('fizz');
+        mainElement.innerHTML += `<div class="square">${'fizz'}</div>`
 
     } else if(numDivisoreCinque === 0) { //ALTRIMENTI SE multiplo di 5
         //Stampo buzz
         console.log('buzz');
+        mainElement.innerHTML += `<div class="square">${'buzz'}</div>`
 
     } else{
         console.log(num);
+        mainElement.innerHTML += `<div class="square">${num}</div>`
     }
     
 }
