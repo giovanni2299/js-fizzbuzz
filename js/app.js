@@ -1,5 +1,6 @@
 // console.log('ciao mamma')
 
+//chiamo il mio container dal DOM
 const mainElement = document.querySelector('.content')
 
 //scrivi un programma che stampi in console i numeri da 1 a 100
@@ -44,5 +45,3 @@ for (let i = 0; i < 100; i++) {
     }
     
 }
-
-//chiamo il mio container dal DOM
